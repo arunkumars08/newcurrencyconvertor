@@ -1,0 +1,119 @@
+* {
+	font-family: "Segoe UI";
+	transition: background-color 0.2s ease 0.2s;
+	-webkit-transition: background-color 0.2s ease 0.2s;
+	-ms-transition: background-color 0.2s ease 0.2s;
+	-moz-transition: background-color 0.2s ease 0.2s;
+	-o-transition: background-color 0.2s ease 0.2s;
+}
+
+input[type="search"] {
+	-webkit-appearance: searchfield;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+	-webkit-appearance: searchfield-cancel-button;
+}
+
+.bold-me {
+	font-weight: bold;
+	color: #000;
+	text-decoration: UPPERCASE;
+}
+
+.block-me-inline {
+	display: inline-block;
+}
+
+.margin-class {
+	margin-left: 10px;
+}
+
+.ex-text {
+	width: 100%;
+	height: 40px;
+	border: solid 1px #bdc3c7;
+	font-size: 20px;
+	color: #2c3e50;
+	outline: 0;
+	padding: 5px;
+	text-align: center;
+}
+
+#ex-prim-curr, #ex-mult-curr, #ex-prim-curr-outer, #ex-mult-curr-outer {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.ex-suggestions {
+	width: 100%;
+}
+
+.ex-sugg-wrapp, .finish-me {
+	padding: 5px;
+	margin: 0 auto;
+}
+
+.finish-me {
+	background-color: #2980b9;
+	text-align: center;
+	color: #ecf0f1;
+}	
+
+.enable-hover:hover {
+	background-color: #f1c40f;
+}
+
+.blue-border {
+	margin-bottom: 2px;
+	background-color: #ecf0f1;
+}
+
+.blue-border:hover {
+	background-color: #8e44ad;
+	color: #ecf0f1;
+}
+
+.ex-odd {
+	background-color: #ecf0f1;
+}
+
+.ex-even {
+	background-color: #bdc3c7;
+}
+
+.ex-prime-further {
+	margin-top: 25px;
+}
+
+.ex-mult-curr-outer-class {
+	margin: 10px;
+	padding: 5px;
+	margin: 10px auto;
+	width: 100%;
+}
+
+.container > div {
+	margin-top: 5%;
+}
+
+.ex-mult-curr-rate, .ex-mult-curr-key {
+	font-size: 22px;
+	font-weight: normal;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+.ex-mult-curr-rate {
+	background-color: #16a085;
+	color: #fff;
+}
+
+.ex-mult-remove {
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+.select-bg {
+	background-color: #8e44ad !important;
+}
